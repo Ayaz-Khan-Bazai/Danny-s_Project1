@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footballs",
+  "info": {
+    "singularName": "football",
+    "pluralName": "footballs",
+    "displayName": "football"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "football": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "role": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}
